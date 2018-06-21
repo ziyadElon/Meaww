@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <video width="320" height="240" controls>
+            Your browser does not support the video tag.
+        </video>
+        <div id="video-overlay">
+                <i class="fa fa-circle text-danger Blink"></i> LIVE
+        </div>
+        <div id="button-container">
+                <button class="btn hidden" id="start-rec"><i class="fa fa-dot-circle-o" style="font-size:24px;color:red"></i> Start</button>
+                <button class="btn hidden" id="stop-button"><i class="fa fa-square"></i> Stop</button>
+                <button class="btn" id="camera-button">I'm Ready! <i class="fa fa-eye-slash" style="font-size:36px"></i></button>
+                <button class="btn hidden" id="new-rec"><i class="fa fa-refresh"></i> Take Another</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
